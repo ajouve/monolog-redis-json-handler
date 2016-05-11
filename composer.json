@@ -1,0 +1,23 @@
+{
+    "name": "ajouve/monolog-redis-json-handler",
+    "type": "library",
+    "description": "a monolog redis handler with json output",
+    "keywords": ["monolog", "redis", "json"],
+    "homepage": "https://github.com/ajouve/monolog-redis-json-handler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ajouve",
+            "homepage": "https://github.com/ajouve"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "monolog/monolog": "1.19.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MonologRedisJson\\": "src/"
+        }
+    }
+}
